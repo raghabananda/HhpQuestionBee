@@ -1,0 +1,93 @@
+take datasets from a software
+speak some fields from that data
+then ask a question
+user replies
+save that speech replies to text
+save in excel or csv format
+
+
+Table required
+============
+
+UserProfile
+---------------
+UserID
+FirstName
+LastName
+MobNo
+EmailID
+Password
+
+Question
+------------------
+QuestionID
+Questions
+
+Options
+----------
+OptID
+OptA
+OptB
+OptC
+OptD
+QuestionID
+
+
+HHP_Answers
+------------------
+AnswerID
+UserID
+QuestionID
+OptID
+Comment
+
+
+
+
+UserInterface
+============
+
+1)index.cshtml:-
+
+NavBar
+
+User LogIn card
+Email
+Password
+LogIn
+
+2)DashBoard :-
+--navbar
+Brand name
+Hi Username
+Logout
+
+--Dashboard Panel
+
+Question List view
+
+Question
+
+OptA
+OptB
+OptC
+OptD
+Comment
+Submit
+
+
+3)Admin.cshtml
+
+GridView
+
+
+
+
+
+
+
+
+
+
+
+
